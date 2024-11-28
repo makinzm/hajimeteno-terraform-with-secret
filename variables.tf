@@ -6,8 +6,8 @@ variable "namespace_name" {
 # Secretのデータ
 variable "secret_data" {
   default = {
-    password = "cGFzc3dvcmQ=" # Base64エンコード済み
-    user     = "dXNlcg=="     # Base64エンコード済み
+    password = "password"
+    user     = "user"
   }
 }
 
