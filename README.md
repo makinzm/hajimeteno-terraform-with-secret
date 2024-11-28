@@ -37,6 +37,11 @@ PWD=/
 ```
 
 # Clean up
+
+```bash
+terraform plan -destroy
+```
+
 ```bash
 terraform destroy
 ```
