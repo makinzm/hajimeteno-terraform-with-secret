@@ -1,0 +1,8 @@
+# include lock file
+# [Dependency Lock File (.terraform.lock.hcl) - Configuration Language | Terraform | HashiCorp Developer](https://developer.hashicorp.com/terraform/language/files/dependency-lock)
+
+.terraform
+
+# exclude tfstate files
+# [Best practices to protect sensitive data | HashiCorp Developer](https://developer.hashicorp.com/well-architected-framework/security/security-sensitive-data#storing-terraform-state)
+*.tfstate
