@@ -6,3 +6,4 @@
 # exclude tfstate files
 # [Best practices to protect sensitive data | HashiCorp Developer](https://developer.hashicorp.com/well-architected-framework/security/security-sensitive-data#storing-terraform-state)
 *.tfstate
+*.tfstate.*
